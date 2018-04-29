@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.topweshare</groupId>
+    <artifactId>spring-cloud-side</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>spring-cloud-side</name>
+    <description>Demo project for Spring Boot</description>
+    <modules>
+        <module>learn</module>
+        <module>config-server</module>
+        <module>consul-consumer</module>
+        <module>eureka-consumer</module>
+        <module>eureka-consumer-feign-hystrix</module>
+        <module>eureka-consumer-ribbon-hystrix</module>
+        <module>eureka-server</module>
+        <module>feign-client-provider</module>
+        <module>feign-api</module>
+        <module>hystrix-collapser-consumer</module>
+        <module>hystrix-dashboard</module>
+        <module>learn-parent</module>
+        <module>message-bus</module>
+        <module>turbine</module>
+        <module>turbine-amqp</module>
+        <module>zipkink-server</module>
+    </modules>
+
+</project>

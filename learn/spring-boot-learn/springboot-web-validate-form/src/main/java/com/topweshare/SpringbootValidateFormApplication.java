@@ -1,0 +1,12 @@
+package com.topweshare;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringbootValidateFormApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootValidateFormApplication.class, args);
+	}
+}
