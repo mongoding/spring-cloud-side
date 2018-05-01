@@ -27,6 +27,7 @@
 		<java.version>1.8</java.version>
 		<spring-cloud-task.version>2.0.0.M3</spring-cloud-task.version>
 		<spring-cloud.version>Finchley.RC1</spring-cloud.version>
+		<ignite.version>2.0.0</ignite.version>
 	</properties>
 
 
@@ -37,6 +38,35 @@
 	</build>
 	<dependencyManagement>
 		<dependencies>
+			<!-- Apache Ignite -->
+			<dependency>
+				<groupId>org.apache.ignite</groupId>
+				<artifactId>ignite-core</artifactId>
+				<version>${ignite.version}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.ignite</groupId>
+				<artifactId>ignite-slf4j</artifactId>
+				<version>${ignite.version}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.ignite</groupId>
+				<artifactId>ignite-spring</artifactId>
+				<version>${ignite.version}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.ignite</groupId>
+				<artifactId>ignite-zookeeper</artifactId>
+				<version>${ignite.version}</version>
+				<scope>provided</scope>
+			</dependency>
+
+
+
+
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-task-dependencies</artifactId>

@@ -1,6 +1,6 @@
 package com.topweshare;
 
-import com.topweshare.message.Receiver;
+import com.topweshare.mq.message.Receiver;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.concurrent.CountDownLatch;
@@ -68,6 +68,6 @@ public class SpringbootRedisApplication {
 
 	/**
 	 * 2017-04-20 17:25:15.536  INFO 39148 --- [           main] com.topweshare.SpringbootRedisApplication    : Sending message...
-	 *  2017-04-20 17:25:15.544  INFO 39148 --- [    container-2] com.topweshare.message.Receiver              : Received <Hello from Redis!>
+	 *  2017-04-20 17:25:15.544  INFO 39148 --- [    container-2] com.topweshare.mq.message.Receiver              : Received <Hello from Redis!>
 	 */
 }

@@ -1,7 +1,7 @@
 package com.topweshare.web;
 
 import com.topweshare.entity.Account;
-import com.topweshare.service.IAccountService;
+import com.topweshare.mq.service.IAccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,6 +1,6 @@
 package com.topweshare;
 
-import com.topweshare.message.Receiver;
+import com.topweshare.mq.message.Receiver;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.Queue;

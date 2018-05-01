@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.concurrent.Future;
 
 /**
- * @author dingzhenhao
+ * @author mongoding
  * @create 2017/7/25.
  * @blog https://mongoding.githu.io
  */

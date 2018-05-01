@@ -28,6 +28,11 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>com.topweshare</groupId>
+			<artifactId>spring-cloud-side-cache</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>

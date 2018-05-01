@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author dingzhenhao
+ * @author mongoding
  * @create 2017/4/15.
  * @blog https://mongoding.githu.io
  */

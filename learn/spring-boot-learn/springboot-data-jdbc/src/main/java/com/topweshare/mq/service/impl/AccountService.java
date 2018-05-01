@@ -1,8 +1,8 @@
-package com.topweshare.service.impl;
+package com.topweshare.mq.service.impl;
 
 import com.topweshare.dao.IAccountDAO;
 import com.topweshare.entity.Account;
-import com.topweshare.service.IAccountService;
+import com.topweshare.mq.service.IAccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

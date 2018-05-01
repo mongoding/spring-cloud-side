@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @author dingzhenhao
+ * @author mongoding
  * @create 2017/4/15.
  * @blog https://mongoding.githu.io
  */

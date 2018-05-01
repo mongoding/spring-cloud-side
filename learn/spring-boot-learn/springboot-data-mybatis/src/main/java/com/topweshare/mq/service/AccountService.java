@@ -1,4 +1,4 @@
-package com.topweshare.service;
+package com.topweshare.mq.service;
 
 import com.topweshare.dao.AccountMapper;
 import com.topweshare.entity.Account;

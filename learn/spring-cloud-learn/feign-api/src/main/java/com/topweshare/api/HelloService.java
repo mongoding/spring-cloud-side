@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
- * @author dingzhenhao
+ * @author mongoding
  * @create 2017/8/8.
  * @blog https://mongoding.githu.io
  */

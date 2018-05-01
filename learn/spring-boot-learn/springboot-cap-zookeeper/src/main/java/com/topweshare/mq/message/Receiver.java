@@ -1,4 +1,4 @@
-package com.topweshare.message;
+package com.topweshare.mq.message;
 
 import java.util.concurrent.CountDownLatch;
 

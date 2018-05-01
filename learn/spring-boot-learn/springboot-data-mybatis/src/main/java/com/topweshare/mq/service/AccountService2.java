@@ -1,4 +1,4 @@
-package com.topweshare.service;
+package com.topweshare.mq.service;
 
 import com.topweshare.dao.AccountMapper2;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -3,7 +3,7 @@ package com.topweshare;
 import java.util.concurrent.TimeUnit;
 
 
-import com.topweshare.message.Receiver;
+import com.topweshare.mq.message.Receiver;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.ConfigurableApplicationContext;

@@ -1,6 +1,5 @@
 package com.topweshare.config;
 
-import com.topweshare.service.NetPagerLookupService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Bean;

@@ -4,7 +4,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
- * @author dingzhenhao
+ * @author mongoding
  * @create 2017/6/24.
  * @blog https://mongoding.githu.io
  */

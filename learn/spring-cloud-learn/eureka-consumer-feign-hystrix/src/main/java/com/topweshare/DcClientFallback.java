@@ -3,7 +3,7 @@ package com.topweshare;
 import org.springframework.stereotype.Component;
 
 /**
- * @author dingzhenhao
+ * @author mongoding
  * @create 2017/6/24.
  * @blog https://mongoding.githu.io
  */
