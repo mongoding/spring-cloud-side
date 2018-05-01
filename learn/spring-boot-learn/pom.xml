@@ -66,6 +66,9 @@
         <module>springboot-soa-dubbo</module>
         <module>springboot-jdk</module>
 
+        <module>springboot-cap-ignite</module>
+        <module>springboot-cap-zookeeper</module>
+
     </modules>
 
     <build>
