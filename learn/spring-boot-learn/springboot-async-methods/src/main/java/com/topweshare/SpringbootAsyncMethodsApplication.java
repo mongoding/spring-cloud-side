@@ -13,20 +13,11 @@ import java.util.concurrent.Executor;
  */
 @SpringBootApplication
 @EnableAsync
-public class SpringbootAsyncMethodsApplication extends AsyncConfigurerSupport {
+public class SpringbootAsyncMethodsApplication  {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootAsyncMethodsApplication.class, args);
 	}
 
-	@Override
-	public Executor getAsyncExecutor() {
-		ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
-		executor.setCorePoolSize(2);
-		executor.setMaxPoolSize(2);
-		executor.setQueueCapacity(500);
-		executor.setThreadNamePrefix("GithubLookup-");
-		executor.initialize();
-		return executor;
-	}
+
 }
