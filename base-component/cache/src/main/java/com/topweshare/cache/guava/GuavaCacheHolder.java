@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * gauva cache holder
  *
- * @author <a href="mailto:dingzhenhao@jiuxian.com">dingzhenhao</a>
+ * @author <a href="mailto:mongoding@jiuxian.com">mongoding</a>
  */
 public class GuavaCacheHolder {
     public Cache<String, Optional<Object>> cache;

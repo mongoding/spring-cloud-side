@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
  * 抽象缓存类、缓存模板。
  * 子类需要实现fetchOrCalculateData从数据库或其他数据源中获取数据。
  *
- * @author dingzhenhao
+ * @author mongoding
  */
 public abstract class GuavaAbstractCallableCache extends GuavaCacheHolder implements IFetchData {
 

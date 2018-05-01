@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
  * fetchOrCalculateData(key)，从数据库或其他数据源（如Redis）中获取数据。
  * 子类调用getValue(key)方法，从缓存中获取数据，并处理不同的异常，比如value为null时的InvalidCacheLoadException异常。
  *
- * @author dingzhenhao
+ * @author mongoding
  * @Date 2017-08-23
  */
 public abstract class GuavaAbstractLoadingCache extends GuavaCacheHolder implements IFetchData {

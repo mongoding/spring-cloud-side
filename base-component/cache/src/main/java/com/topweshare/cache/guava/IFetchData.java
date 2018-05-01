@@ -6,7 +6,7 @@ import com.topweshare.cache.util.Keys;
 /**
  * gauva cache
  *
- * @author <a href="mailto:dingzhenhao@jiuxian.com">dingzhenhao</a>
+ * @author <a href="mailto:mongoding@jiuxian.com">mongoding</a>
  */
 public interface IFetchData {
     /**

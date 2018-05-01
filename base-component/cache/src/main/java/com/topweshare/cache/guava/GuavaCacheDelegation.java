@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 /**
  * gauva cache Delegation
  *
- * @author <a href="mailto:dingzhenhao@jiuxian.com">dingzhenhao</a>
+ * @author <a href="mailto:mongoding@jiuxian.com">mongoding</a>
  */
 public class GuavaCacheDelegation implements CacheDelegation {
 

@@ -20,7 +20,7 @@ import java.util.concurrent.ConcurrentMap;
 /**
  * Guava缓存监视和管理工具
  *
- * @author dingzhenhao
+ * @author mongoding
  */
 public class GuavaCacheManager {
 

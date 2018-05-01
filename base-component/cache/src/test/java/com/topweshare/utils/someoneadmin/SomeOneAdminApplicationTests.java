@@ -1,4 +1,4 @@
-package com.topweshare.someoneadmin;
+package com.topweshare.utils.someoneadmin;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

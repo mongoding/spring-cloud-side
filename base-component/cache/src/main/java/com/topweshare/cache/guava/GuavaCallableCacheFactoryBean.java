@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * gauva cache factory
  *
- * @author <a href="mailto:dingzhenhao@jiuxian.com">dingzhenhao</a>
+ * @author <a href="mailto:mongoding@jiuxian.com">mongoding</a>
  */
 public class GuavaCallableCacheFactoryBean extends GuavaCacheHolder implements FactoryBean<Cache<String, Optional<Object>>>, InitializingBean, Closeable {
 
