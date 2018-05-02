@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * @author mongoding
  * @create 2017/8/8.
- * @blog https://mongoding.githu.io
+ * @blog https://mongoding.github.io
  */
 public interface HelloService {
 
