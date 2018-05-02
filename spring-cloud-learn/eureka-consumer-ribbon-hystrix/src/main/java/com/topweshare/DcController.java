@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 /**
  * @author mongoding
  * @create 2017/4/15.
- * @blog https://mongoding.githu.io
+ * @blog https://mongoding.github.io
  */
 @RestController
 public class DcController {
@@ -20,7 +20,7 @@ public class DcController {
     @Autowired
     ConsumerService consumerService;
 
-    @GetMapping("/consumer")
+    @GetMapping("/say")
     public String dc() {
         return consumerService.consumer();
     }
@@ -33,7 +33,7 @@ public class DcController {
 
         @HystrixCommand(fallbackMethod = "fallback")
         public String consumer() {
-            return restTemplate.getForObject("http://eureka-client/dc", String.class);
+            return restTemplate.getForObject("http://eureka-feign-client-provider/hello", String.class);
         }
 
         public String fallback() {

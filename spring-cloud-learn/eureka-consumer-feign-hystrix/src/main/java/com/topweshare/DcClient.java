@@ -1,17 +1,19 @@
 package com.topweshare;
 
+import com.topweshare.api.HelloService;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
  * @author mongoding
  * @create 2017/6/24.
- * @blog https://mongoding.githu.io
+ * @blog https://mongoding.github.io
  */
-@FeignClient(name = "eureka-client", fallback = DcClientFallback.class)
-public interface DcClient {
+@FeignClient(name = "eureka-feign-client-provider", fallback = DcClientFallback.class)
+public interface DcClient extends HelloService{
 
     @GetMapping("/dc")
     String consumer();
+
 
 }

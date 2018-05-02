@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @author mongoding
  * @create 2017/4/15.
- * @blog https://mongoding.githu.io
+ * @blog https://mongoding.github.io
  */
 @RestController
 public class DcController {
@@ -15,7 +15,7 @@ public class DcController {
     @Autowired
     DcClient dcClient;
 
-    @GetMapping("/consumer")
+    @GetMapping("/say")
     public String dc() {
         return dcClient.consumer();
     }

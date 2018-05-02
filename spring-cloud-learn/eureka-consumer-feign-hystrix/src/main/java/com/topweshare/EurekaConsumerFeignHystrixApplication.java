@@ -8,10 +8,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 @EnableDiscoveryClient
 @SpringBootApplication
-public class Application {
+public class EurekaConsumerFeignHystrixApplication {
 
 	public static void main(String[] args) {
-		new SpringApplicationBuilder(Application.class).web(true).run(args);
+		new SpringApplicationBuilder(EurekaConsumerFeignHystrixApplication.class).web(true).run(args);
 	}
 
 }
