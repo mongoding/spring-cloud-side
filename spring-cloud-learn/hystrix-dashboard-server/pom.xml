@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.topweshare</groupId>
-	<artifactId>hystrix-collapser-consumer</artifactId>
+	<artifactId>hystrix-dashboard-server</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>hystrix-collapser-consumer</name>
+	<name>hystrix-dashboard-server</name>
 	<description>Spring Cloud In Action</description>
 
 	<parent>

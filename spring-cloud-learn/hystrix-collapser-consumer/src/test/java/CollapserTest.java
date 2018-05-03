@@ -1,4 +1,4 @@
-import com.topweshare.Application;
+import com.topweshare.HystrixApplication;
 import com.topweshare.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
@@ -13,11 +13,11 @@ import java.util.concurrent.Future;
 /**
  * @author mongoding
  * @create 2017/7/25.
- * @blog https://mongoding.githu.io
+ * @blog https://mongoding.github.io
  */
 @Slf4j
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Application.class)
+@SpringBootTest(classes = HystrixApplication.class)
 public class CollapserTest {
 
     @Autowired
