@@ -1,4 +1,4 @@
-package com.topweshare;
+package com.topweshare.filter;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;

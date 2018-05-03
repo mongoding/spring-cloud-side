@@ -1,0 +1,10 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/
+server:
+  port: 8400
+spring:
+  application:
+    name: zipkin-server
+#spring.sleuth.sampler.percentage: 1.0
