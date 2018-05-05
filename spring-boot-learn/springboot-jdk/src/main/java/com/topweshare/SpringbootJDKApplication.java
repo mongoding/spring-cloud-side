@@ -2,28 +2,19 @@ package com.topweshare;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import java.util.concurrent.CountDownLatch;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.Bean;
-import org.springframework.data.redis.connection.RedisConnectionFactory;
-import org.springframework.data.redis.core.StringRedisTemplate;
-import org.springframework.data.redis.listener.PatternTopic;
-import org.springframework.data.redis.listener.RedisMessageListenerContainer;
-import org.springframework.data.redis.listener.adapter.MessageListenerAdapter;
 
 @SpringBootApplication
 public class SpringbootJDKApplication {
 
-	private static final Logger LOGGER = LoggerFactory.getLogger(SpringbootJDKApplication.class);
 
 
 
 	public static void main(String[] args) throws Exception{
+		System.out.println("主线程start："+Thread.currentThread().getName());
 		ApplicationContext ctx =  SpringApplication.run(SpringbootJDKApplication.class, args);
-
+		System.out.println("主线程："+Thread.currentThread().getName());
 
 	}
 
