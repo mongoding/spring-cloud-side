@@ -1,13 +1,13 @@
 package com.topweshare.command;
 
-import java.util.concurrent.Future;
-
-import com.topweshare.mq.service.NetPagerLookupService;
+import com.topweshare.service.NetPagerLookupService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StopWatch;
+
+import java.util.concurrent.Future;
 
 /**
  * Created by mongoding on 2017/4/19.

@@ -38,7 +38,7 @@
 
         <module>springboot-async-methods</module>
 
-        <module>springboot-config-configtookit</module>
+        <module>springboot-config</module>
 
         <module>springboot-search-es</module>
 
