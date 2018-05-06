@@ -1,4 +1,4 @@
-package com.topweshare.mvc;
+package com.topweshare.mvc.entity;
 
 
 /**
