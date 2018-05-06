@@ -1,4 +1,4 @@
-package com.topweshare.storage;
+package com.topweshare.upload.storage;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;

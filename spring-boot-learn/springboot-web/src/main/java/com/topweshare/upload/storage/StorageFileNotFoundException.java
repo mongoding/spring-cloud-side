@@ -1,4 +1,4 @@
-package com.topweshare.storage;
+package com.topweshare.upload.storage;
 
 public class StorageFileNotFoundException extends StorageException {
 

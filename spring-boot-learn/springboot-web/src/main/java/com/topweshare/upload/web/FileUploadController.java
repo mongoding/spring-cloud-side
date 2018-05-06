@@ -1,8 +1,8 @@
-package com.topweshare.web;
+package com.topweshare.upload.web;
 
 
-import com.topweshare.storage.StorageFileNotFoundException;
-import com.topweshare.storage.StorageService;
+import com.topweshare.upload.storage.StorageFileNotFoundException;
+import com.topweshare.upload.storage.StorageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;

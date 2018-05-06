@@ -1,8 +1,9 @@
-package com.topweshare.entity;
+package com.topweshare.validate.entity;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+
 /**
  * Created by mongoding on 2017/4/19.
  */
