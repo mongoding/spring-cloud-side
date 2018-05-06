@@ -28,39 +28,22 @@
     </properties>
 
     <modules>
-        <module>springboot-doc-aipdoc</module>
-        <module>springboot-doc-swagger</module>
-        <module>springboot-doc-restdocs</module>
+        <module>springboot</module>
+        <module>springboot-cache</module>
+        <module>springboot-data</module>
+        <module>springboot-mq</module>
+        <module>springboot-doc</module>
+        <module>springboot-tasks</module>
+        <module>springboot-web</module>
 
         <module>springboot-async-methods</module>
-        <module>springboot-cache-spring</module>
-        <module>springboot-cache-redis</module>
 
-        <module>springboot-config</module>
         <module>springboot-config-configtookit</module>
 
-        <module>springboot-search-elk</module>
         <module>springboot-search-es</module>
 
-        <module>springboot-data-jpa</module>
-        <module>springboot-data-mongodb</module>
-        <module>springboot-data-mybatis</module>
-        <module>springboot-data-jdbc</module>
 
-        <module>springboot-message-jms</module>
-        <module>springboot-message-rabbitmq</module>
-        <module>springboot-message-kafka</module>
-
-        <module>springboot-web-resttemplate</module>
-        <module>springboot-web-upload-file</module>
-        <module>springboot-web-validate-form</module>
-        <module>springboot-web-http</module>
         <module>springboot-web-flux</module>
-        <module>springboot-web-freemarker</module>
-        <module>springboot-web-servlet</module>
-
-        <module>springboot-tasks-spring-schedul</module>
-        <module>springboot-tasks-mossross</module>
 
         <module>springboot-with-docker</module>
         <module>springboot-soa-dubbo</module>
