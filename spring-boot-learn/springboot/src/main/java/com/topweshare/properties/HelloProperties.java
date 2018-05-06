@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * 最主要的注解就是@enableAutoConfiguration,而这个注解会导入一个EnableAutoConfigurationImportSelector的类,而这个类会去读取一个spring.factories下key为EnableAutoConfiguration全限定名对应值.
  *
  */
-@ConfigurationProperties(prefix = "hello")
+@ConfigurationProperties(prefix = "com.topweshare.hello")
 @Component
 public class HelloProperties {
 

@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class TeacherProperties {
 
-    @Value("${user.name}")
+    @Value("${com.topweshare.user.name}")
     private String name;
 
     public String getName() {
