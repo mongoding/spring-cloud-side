@@ -23,86 +23,96 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <spring-cloud-task.version>2.0.0.M3</spring-cloud-task.version>
+
         <spring-cloud.version>Finchley.RC1</spring-cloud.version>
     </properties>
 
     <modules>
-        <module>api-gateway-with-eureka</module>
         <module>api-gateway-dynamic-filter</module>
-        <module>api-gateway-dynamic-route</module>
-        <module>api-gateway-exception</module>
 
         <module>config-server-eureka</module>
-        <module>config-server-eureka-kafka</module>
-        <module>config-server-eureka-rabbit</module>
         <module>config-client-eureka</module>
-        <module>config-client-eureka-kafka</module>
-        <module>config-client-eureka-rabbit</module>
 
         <module>consul-consumer</module>
         <module>consul-provider</module>
 
-        <module>eureka-consumer</module>
         <module>eureka-consumer-feign-hystrix</module>
         <module>eureka-consumer-ribbon-hystrix</module>
         <module>feign-api</module>
-        <module>eureka-feign-client-provider</module>
+        <module>eureka-provider-feign-client</module>
 
         <module>eureka-server</module>
-        <module>eureka-server-ha</module>
 
         <module>hystrix-collapser-consumer</module>
-        <module>hystrix-dashboard</module>
+        <module>hystrix-dashboard-server</module>
 
         <module>stream-consumer</module>
         <module>stream-producer</module>
 
-        <module>turbine</module>
-        <module>turbine-amqp</module>
+        <module>hystrix-turbine</module>
+        <module>hystrix-turbine-stream</module>
 
-        <module>zipkin-sleuth</module>
-        <module>zipkin-sleuth-mysql</module>
-        <module>zipkin-sleuth-stream</module>
-        <module>zipkin-sleuth-stream-elasticsearch</module>
-        <module>zipkin-sleuth-stream-mysql</module>
+        <module>zipkin-server</module>
+        <module>zipkin-server-stream</module>
     </modules>
 
-    <build>
-        
-
-    </build>
 
     <dependencyManagement>
+
+
         <dependencies>
 
-                <dependency>
-                    <groupId>javax.xml.bind</groupId>
-                    <artifactId>jaxb-api</artifactId>
-                    <version>2.3.0</version>
-                </dependency>
-                <dependency>
-                    <groupId>com.sun.xml.bind</groupId>
-                    <artifactId>jaxb-impl</artifactId>
-                    <version>2.3.0</version>
-                </dependency>
-                <dependency>
-                    <groupId>com.sun.xml.bind</groupId>
-                    <artifactId>jaxb-core</artifactId>
-                    <version>2.3.0</version>
-                </dependency>
-                <dependency>
-                    <groupId>javax.activation</groupId>
-                    <artifactId>activation</artifactId>
-                    <version>1.1.1</version>
-                </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-stream-rabbit -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-task-dependencies</artifactId>
-                <version>${spring-cloud-task.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
+                <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
+                <version>2.0.0.RELEASE</version>
             </dependency>
+
+
+            <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-sleuth-zipkin-stream -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-sleuth-zipkin-stream</artifactId>
+                <version>1.3.3.RELEASE</version>
+            </dependency>
+
+
+            <!-- https://mvnrepository.com/artifact/io.zipkin.java/zipkin-server -->
+            <dependency>
+                <groupId>io.zipkin.java</groupId>
+                <artifactId>zipkin-server</artifactId>
+                <version>2.8.3</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/io.zipkin.java/zipkin-autoconfigure-ui -->
+            <dependency>
+                <groupId>io.zipkin.java</groupId>
+                <artifactId>zipkin-autoconfigure-ui</artifactId>
+                <version>2.8.3</version>
+            </dependency>
+
+            <dependency>
+                <groupId>javax.xml.bind</groupId>
+                <artifactId>jaxb-api</artifactId>
+                <version>2.3.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.sun.xml.bind</groupId>
+                <artifactId>jaxb-impl</artifactId>
+                <version>2.3.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.sun.xml.bind</groupId>
+                <artifactId>jaxb-core</artifactId>
+                <version>2.3.0</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.activation</groupId>
+                <artifactId>activation</artifactId>
+                <version>1.1.1</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -110,6 +120,8 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+
         </dependencies>
     </dependencyManagement>
 
@@ -150,7 +162,6 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
-
 
 
 </project>

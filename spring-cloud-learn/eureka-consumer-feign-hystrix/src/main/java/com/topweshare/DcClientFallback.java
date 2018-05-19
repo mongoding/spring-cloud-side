@@ -12,11 +12,11 @@ public class DcClientFallback implements DcClient {
 
     @Override
     public String consumer() {
-        return "fallback";
+        return "fallback-test";
     }
 
     @Override
     public String hello(String name) {
-        return "fallback";
+        return "fallback-test";
     }
 }
