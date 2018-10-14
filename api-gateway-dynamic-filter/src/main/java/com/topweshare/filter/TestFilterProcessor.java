@@ -10,7 +10,7 @@ import com.netflix.zuul.exception.ZuulException;
  * @create 2016/12/15.
  * @blog mongoding.github.io
  */
-public class DidiFilterProcessor extends FilterProcessor {
+public class TestFilterProcessor extends com.netflix.zuul.FilterProcessor {
 
     @Override
     public Object processZuulFilter(ZuulFilter filter) throws ZuulException {
